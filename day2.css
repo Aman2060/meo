@@ -1,0 +1,80 @@
+body{
+    background-image: url("ctt.jpeg");
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color:blueviolet
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:darkmagenta;
+}
+hr{
+   border-top: 7px solid palevioletred;
+   border-radius: 10px;
+}
+hr.new{
+    border-top: 1px dotted palevioletred;
+ }
+
+ input[type=text]{
+    width:30%;
+    padding:10px 10px;
+    margin:5px;
+    border: 2px red;
+    border-radius: 10px;
+    background-color:snow;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ input[type=email]{
+    width:60%;
+    padding:10px 10px;
+    margin:5px;
+    border: 2px red;
+    border-radius: 10px;
+    background-color:snow;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+
+ }
+select{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    margin:5px;
+    width:20%;
+    background-color: snow;
+    border-radius: 10px;   
+}
+input[type=file]{
+    margin:5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+textarea{
+    width:60%;
+    margin:5px;
+    padding:40px;
+    border-radius: 10px;
+    background-color: snow;
+    font-family: 'Courier New', Courier, monospace;
+}
+input[type=submit]{
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:darkgray;
+}
+input[type=reset]{
+    border-radius: 2px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:darkgray;
+}
+.mydiv{
+    position: relative;
+    left:400px;
+    padding: 10px;
+    background-color:burlywood;
+    background: rgba(255,122,89,.3);
+    border-radius: 10px;
+    width:40%;
+}
